@@ -1,11 +1,16 @@
+body{
+    font-family: roboto;
+}
+
 .nav-container{
     display:flex;
     background-color: #1F2937;
+    list-style-type: none;
 
 }
 
-.nav-items{
- flex:1;
+li{
+ flex:initial;
  color:#E5E7EB;
 }
 
