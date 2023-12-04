@@ -1,0 +1,14 @@
+.nav-container{
+    display:flex;
+    background-color: #1F2937;
+
+}
+
+.nav-items{
+ flex:1;
+ color:#E5E7EB;
+}
+
+.logo{
+    color:#F9FAF8;
+}
