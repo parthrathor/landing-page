@@ -6,6 +6,7 @@
 
 body{
     font-family: roboto;
+    
 }
 
 header{
@@ -115,6 +116,7 @@ h2{
     width: 200px;
     align-items: center;
     justify-content: flex-end;
+    gap: 8px;
 
 }
 
@@ -123,4 +125,40 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+   display: flex;
+   flex-direction: column;
+   padding: 7em 13em;
+}
+
+.quote,.writer{
+    color: #1F2937;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.writer{
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+.outer-container{
+
+    padding: 1em 13em;
+}
+
+footer{
+    padding: 2em 13em;
+    text-align: center;
+    color: #E5E7EB;
+    background-color: #1F2937;
 }
